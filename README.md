@@ -57,8 +57,8 @@ ClimateWins/
 │   ├── 01_data_understanding.ipynb                   # Loading, merging, cleaning
 │   └── 02_supervised_learning_basel.ipynb            # EDA, feature analysis, modelling
 ├── Deliverables/
-│   ├── ClimateWins_Presentation.pptx                 # Stakeholder presentation (Exercise 1.6)
-│   └── Exercise_1_2_Ethics_and_Data_Preparation.docx # Ethics and data write-up (Exercise 1.2)
+│   ├── ClimateWins_Presentation.pptx                 # Stakeholder presentation
+│   └── Exercise_1_2_Ethics_and_Data_Preparation.docx # Ethics and data write-up 
 └── README.md
 ```
 
@@ -229,5 +229,6 @@ A formal written deliverable covering all four Exercise 1.2 requirements:
 ## Author
 
 **Benjamin Akingbade**
+
 Early-career data analyst transitioning into data science.
-This project was completed as part of the CareerFoundry Machine Learning with Python course (Achievement 1).
+This project was completed as part of the CareerFoundry Machine Learning with Python course (Achievement 1)
