@@ -131,15 +131,19 @@ Seasonal distribution validated as consistent between splits — test results re
 ## Key Findings
 
 **1. Global radiation is the dominant predictor.**
+
 The Decision Tree's root split uses global radiation at threshold 0.657. This single feature separates the majority of favorable from unfavorable days — consistent with its 0.656 correlation with the target. It functions as a composite signal encoding sunshine, cloud cover, and season simultaneously.
 
 **2. The chronological split was the most important methodological decision.**
+
 A random split would have produced artificially inflated accuracy due to temporal leakage. The chronological split ensures results reflect genuine forecasting ability on unseen future dates.
 
 **3. Accuracy alone is a misleading metric for this problem.**
+
 The baseline model achieves 76.5% accuracy by predicting "unfavorable" every day — learning nothing. Every model must be evaluated against this baseline and assessed on false positive rate specifically, given the asymmetric cost of dangerous false reassurance.
 
 **4. Station-level variation is significant.**
+
 Favorable day rates range from 0% (Sonnblick) to 48.5% (Perpignan). A single global model cannot serve all stations equally. Future work should evaluate station-specific models for locations with atypical climate profiles.
 
 ---
