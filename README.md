@@ -234,5 +234,5 @@ A formal written deliverable covering all four Exercise 1.2 requirements:
 
 **Benjamin Akingbade**
 
-Early-career data analyst transitioning into data science.
-This project was completed as part of the CareerFoundry Machine Learning with Python course (Achievement 1)
+Early-career Data/ Business Analyst transitioning into data science.
+This project was completed as part of the CareerFoundry Machine Learning with Python course
