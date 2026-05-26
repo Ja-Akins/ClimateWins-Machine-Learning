@@ -260,6 +260,3 @@ A formal written deliverable covering all four Exercise 1.2 requirements:
 ## Author
 
 **Benjamin Akingbade**
-
-Early-career Data/ Business Analyst transitioning into data science.
-This project was completed as part of the CareerFoundry Machine Learning with Python course
