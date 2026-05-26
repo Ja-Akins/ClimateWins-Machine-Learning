@@ -268,3 +268,5 @@ A formal written deliverable covering all four Exercise 1.2 requirements:
 ## Author
 
 **Benjamin Akingbade**
+Data Analyst | Python · scikit-learn · PostgreSQL · FastAPI
+[LinkedIn](https://www.linkedin.com/in/benjamin-akingbade-306022251) • [Portfolio](https://ja-akins.github.io/my-portfolio/)
