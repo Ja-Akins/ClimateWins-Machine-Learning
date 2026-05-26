@@ -124,6 +124,8 @@ Starting from 9 Basel weather features, reduced to 5 based on:
 ### 4. Train/Test Split
 **Critical decision: chronological split, not random shuffle.**
 
+![Decision Tree Structure](decision_tree.png)
+
 Weather data has strong temporal autocorrelation. A random split allows the model to see dates adjacent to test dates during training — inflating accuracy artificially. The chronological split ensures the model only ever learns from the past to predict the future.
 
 | Split | Period | Records | Favorable Rate |
@@ -140,11 +142,17 @@ Seasonal distribution validated as consistent between splits — test results re
 
 ## Results
 
+![Model Comparison](model_comparison.png)
+
+
 | Model | Test Accuracy | False Positives | False Negatives | Recommended |
 |---|---|---|---|---|
 | Baseline (majority class) | 76.5% | — | — | No |
 | KNN (k=5) | 92.2% | 45 | 12 | Fallback only |
 | Decision Tree (depth=4) | **98.2%** | **8** | **5** | **Yes** |
+
+
+![Confusion Matrices](confusion_matrices.png)
 
 **Best model: Decision Tree (max_depth=4)**
 - 21.8 percentage points above baseline
